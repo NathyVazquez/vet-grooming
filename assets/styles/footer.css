@@ -1,0 +1,25 @@
+.img-footer{
+    height: 30px;
+    border-radius:50%;
+    cursor: pointer;
+    margin-left:3px ;
+}
+footer{
+    background-color: #00171F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    gap:5%;
+    padding:10px ;
+}
+.footer-div{
+    display: flex;
+}
+p{
+    margin-bottom:0;
+    cursor: pointer;
+}
+p:hover{
+    color:#007EA7;
+}
