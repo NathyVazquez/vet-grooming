@@ -18,7 +18,7 @@ nav{
     list-style:none;
     color:white;
     display: flex;
-    margin:0;
+    margin-bottom:25px;
 }
 li{
     margin: 5px;

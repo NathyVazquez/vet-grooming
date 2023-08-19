@@ -15,8 +15,7 @@
         display: block;
         margin:8px ;
         top: 20px;
-        right:20px;
-        
+        right:20px;  
     }
     .list{
         display: block;
@@ -27,6 +26,7 @@
         height:100vp;
         right:0;
         background-color:#00171F;
+        z-index:1;
     }
     .list li{
         padding:2rem;
@@ -41,7 +41,6 @@
     #check:checked ~ ul{
         left:0;
     }
-    
     footer{
         width:100% ;
     }
