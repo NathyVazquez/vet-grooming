@@ -11,27 +11,27 @@ nav{
 }
 .logo{
     height: 50px;
-    border-radius:50%;
-    margin:10px;
+    border-radius: 50%;
+    margin: 10px;
 }
 .list{
-    list-style:none;
-    color:white;
+    list-style: none;
+    color: white;
     display: flex;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 li{
     margin: 5px;
     cursor: pointer;
 }
 li:hover{
-    color:#007EA7;
+    color: #007EA7;
 }
 input{
     height: 20px;
     background-color: transparent;
-    border-radius:5px;
-    border-color:white;
+    border-radius: 5px;
+    border-color: white;
     color: white;
    padding: 15px;
 }
