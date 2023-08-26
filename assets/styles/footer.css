@@ -12,6 +12,9 @@ footer{
     color:white;
     gap:5%;
     padding:10px ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .footer-div{
     display: flex;
