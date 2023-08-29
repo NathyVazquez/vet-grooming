@@ -16,6 +16,9 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.container-footer{
+    display: flex;
+}
 .footer-div{
     display: flex;
 }
