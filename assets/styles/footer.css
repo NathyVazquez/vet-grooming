@@ -18,7 +18,6 @@ footer{
 }
 .container-footer{
     display: flex;
-
 }
 .footer-div{
     display: flex;
@@ -29,13 +28,4 @@ p{
 }
 p:hover{
     color:#007EA7;
-}
-@media(max-width:768px){
-    .container-footer p{
-        display: none;
-    }
-    .footer{
-        position: absolute;
-        bottom: 0px;
-    }
 }

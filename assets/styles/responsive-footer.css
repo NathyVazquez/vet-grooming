@@ -1,0 +1,9 @@
+@media(max-width:768px) {
+.container-footer p {
+    display: none;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+}
+}
