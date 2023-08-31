@@ -1,13 +1,13 @@
+body{
+    position: relative;
+    padding-bottom:3em;
+    min-height:100vh;
+}
 .img-products{
     width: 100%;
+    height: 250px;
     margin: 10px;
     margin-top: 15px;
-}
-.card {
-    margin-right: 10px;
-    background-color: #86b7fe;
-    color: #000;
-    align-items: cente;
 }
 .row{
     width:95%;
@@ -17,14 +17,14 @@
     display: flex;
     justify-content: center;
 }
-.card-body{
-    paddin-top:10px;
-}
-.button-products {
+.buttonProducts {
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 .btn{
     width:200px;
+}
+.paddingClass{
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
