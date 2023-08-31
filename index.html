@@ -1,127 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog styling</title>
-    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/styles/navbar.css">
-    <link rel="stylesheet" href="./assets/styles/footer.css">
-    <link rel="stylesheet" href="./assets/styles/responsive-footer.css">
-    <link rel="stylesheet" href="./assets/styles/responsive-navbar.css">
-    <link rel="stylesheet" href="./assets/styles/index.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog styling</title>
+        <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/styles/navbar.css">
+        <link rel="stylesheet" href="./assets/styles/footer.css">
+        <link rel="stylesheet" href="./assets/styles/responsive-footer.css">
+        <link rel="stylesheet" href="./assets/styles/responsive-navbar.css">
+        <link rel="stylesheet" href="./assets/styles/index.css">
+        <link rel="stylesheet" href="./assets/styles/links.css">
+    </head>
 
-<body>
-    <header class="header">
-        <nav>
-            <img class="logo" src="./assets/images/logo 4.jpg">
-            <form>
-                <input type="text" name="search" placeholder="Search" />
-            </form>
-            <div class="menu-hamburguesa">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <img class="icon" src="./assets/images/menu.png">
-                </label>
-                <ul class="list">
-                    <li>Services</li>
-                    <li>Products</li>
-                    <li>Appoinment</li>
-                    <li>About us</li>
-                </ul>
+    <body>
+        <header class="header">
+            <nav>
+                <a href="index.html"><img class="logo" src="./assets/images/logo 4.jpg"></a>
+                <form>
+                    <input type="text" name="search" placeholder="Search" />
+                </form>
+                <div class="menu-hamburguesa">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <img class="icon" src="./assets/images/menu.png">
+                    </label>
+                    <ul class="list">
+                        <li><a href="services.html">Services</a></li>
+                        <li>Products</li>
+                        <li><a href="form.html">Appoinment</a></li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/carousel img1.jpeg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel img2.jpeg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel img3.jpeg" class="d-block w-100">
+                </div>
             </div>
-        </nav>
-    </header>
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/images/carousel img1.jpeg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/images/carousel img2.jpeg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/images/carousel img3.jpeg" class="d-block w-100">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container-fluid">
+            <section class="w-50 mx-auto text-center my-15">
+                <div clas="principal-text">
+                    <h1>LIKE NO OTHER</h1>
+                    <p>With meticulous, laser-focused attention to detail, Dog Styling provides an unmatched experience-for
+                        Pets and
+                        their People.</p>
+                </div>
+            </section>
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col">
+                        <img class="building" src="./assets/images/building.png">
+                        <h2>Moderne facility</h2>
+                        <span>Clean, comfortable, safe and luxurious</span>
+                        <button type="button" class="btn btn-link">Virtual tour</button>
+                    </div>
+                    <div class="col">
+                        <img class="scissor" src="./assets/images/Scissor-PNG-Clipart.png">
+                        <h2>Precise cut</h2>
+                        <span>Standard,creative,asian fusion-and everythin between</span>
+                        <br>
+                        <button type="button" class="btn btn-link">Services and pricing</button>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/persons.png">
+                        <h2>Precise cut</h2>
+                        <span>Some of the most talented professionals in the industry today</span>
+                        <br>
+                        <button type="button" class="btn btn-link">Meet the team</button>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/cel.jpg">
+                        <h2>Convenient</h2>
+                        <span>Detailed consults, custom care plans and 24/7 booking access</span>
+                        <br>
+                        <button type="button" class="btn btn-link">Book Now</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <div class="container-fluid">
-        <section class="w-50 mx-auto text-center my-15">
-            <div clas="principal-text">
-                <h1>LIKE NO OTHER</h1>
-                <p>With meticulous, laser-focused attention to detail, Dog Styling provides an unmatched experience-for
-                    Pets and
-                    their People.</p>
-            </div>
-        </section>
-        <div class="container-fluid text-center">
-            <div class="row">
-                <div class="col">
-                    <img class="building" src="./assets/images/building.png">
-                    <h2>Moderne facility</h2>
-                    <span>Clean, comfortable, safe and luxurious</span>
-                    <button type="button" class="btn btn-link">Virtual tour</button>
+        <br>
+        <footer>
+            <div class="container-footer">
+                <div class="footer-div">
+                    <img class="img-footer" src="./assets/images/UBICACION.jpg">
+                    <p>Av, Tecnologico #230 28976 Villa de Álvarez, México</p>
                 </div>
-                <div class="col">
-                    <img class="scissor" src="./assets/images/Scissor-PNG-Clipart.png">
-                    <h2>Precise cut</h2>
-                    <span>Standard,creative,asian fusion-and everythin between</span>
-                    <br>
-                    <button type="button" class="btn btn-link">Services and pricing</button>
+                <div class="footer-div">
+                    <img class="img-footer" src="./assets/images/telefono.png">
+                    <p>312-188-98-73</p>
                 </div>
-                <div class="col">
-                    <img src="./assets/images/persons.png">
-                    <h2>Precise cut</h2>
-                    <span>Some of the most talented professionals in the industry today</span>
-                    <br>
-                    <button type="button" class="btn btn-link">Meet the team</button>
+                <div class="footer-div">
+                    <img class="img-footer" src="./assets/images/email.png">
+                    <p>Dog_styling@gmail.com</p>
                 </div>
-                <div class="col">
-                    <img src="./assets/images/cel.jpg">
-                    <h2>Convenient</h2>
-                    <span>Detailed consults, custom care plans and 24/7 booking access</span>
-                    <br>
-                    <button type="button" class="btn btn-link">Book Now</button>
+                <div class="networks">
+                    <img class="img-footer" src="./assets/images/facebook.png">
+                    <img class="img-footer" src="./assets/images/instagram2.png">
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
-    <footer>
-        <div class="container-footer">
-            <div class="footer-div">
-                <img class="img-footer" src="./assets/images/UBICACION.jpg">
-                <p>Av, Tecnologico #230 28976 Villa de Álvarez, México</p>
-            </div>
-            <div class="footer-div">
-                <img class="img-footer" src="./assets/images/telefono.png">
-                <p>312-188-98-73</p>
-            </div>
-            <div class="footer-div">
-                <img class="img-footer" src="./assets/images/email.png">
-                <p>Dog_styling@gmail.com</p>
-            </div>
-            <div class="networks">
-                <img class="img-footer" src="./assets/images/facebook.png">
-                <img class="img-footer" src="./assets/images/instagram2.png">
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-        crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+            crossorigin="anonymous"></script>
+    </body>
 </html>

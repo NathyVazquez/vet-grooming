@@ -1,0 +1,26 @@
+body{
+    position:relative;
+    padding-bottom:0;
+    min-height:100vh;
+}
+.card-img{
+    height: 180px;
+}
+.card{
+    margin-right: 10px;
+    background-color:#007EA7;
+    color: aliceblue;
+}
+.card-title{
+    color: #00171F;
+    font-size:30px;
+}
+.card-text{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttonClass{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}

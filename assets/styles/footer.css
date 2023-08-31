@@ -2,7 +2,7 @@
     height: 30px;
     border-radius:50%;
     cursor: pointer;
-    margin-left:3px ;
+    margin-left:5px ;
 }
 footer{
     background-color: #00171F;
@@ -21,6 +21,7 @@ footer{
 }
 .footer-div{
     display: flex;
+    margin-left: 20px;
 }
 p{
     margin-bottom:0;
@@ -28,4 +29,7 @@ p{
 }
 p:hover{
     color:#007EA7;
+}
+.networks{
+    margin-left: 5px;
 }
